@@ -3,7 +3,6 @@ return {
     "neovim/nvim-lspconfig",
     config = function()
       local lspconfig = require("lspconfig")
-      lspconfig.sourcekit.setup({})
 
       vim.api.nvim_create_autocmd("LspAttach", {
         desc = "LSP Actions",
