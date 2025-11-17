@@ -1,3 +1,5 @@
+-- Disabled due to company removing GitHub Copilot access
+--[[
 return {
   {
     "CopilotC-Nvim/CopilotChat.nvim",
@@ -12,3 +14,5 @@ return {
     -- See Commands section for default commands if you want to lazy load on them
   },
 }
+--]]
+return {}
